@@ -11,37 +11,36 @@
     "mail": "mmolinengo2@gmail.com",
     "nationalite": "Nationalité Française"
   },
-  "links": {
-    "link1": {
+  "links": [
+    {
       "nom": "Memoshot (Projet CEGEP Lévis Lauzon)",
       "adresse": "http://205.236.12.51/projet/h2014/equipe3/"
     },
-      "link2": {
+    {
       "nom": "Probtp ( Emploi Saisonnier en temps qu'informaticien )",
       "adresse": "http://www.probtp.com/"
-      },
-    "link3": {
+    },
+    {
       "nom": "Xybion Corporation (Stage à Quebec, QC, Canada)",
       "adresse": "http://www.xybion.com/"
     },
-    "link7": {
+    {
       "nom": "Polytech'Nice (École d'ingenieur)",
       "adresse": "http://www.polytechnice.fr/"
     },
-    "link6": {
+    {
       "nom": "CEGEP de Lévis-Lauzon, QC, Canada",
       "adresse": "http://cll.qc.ca/"
     },
-
-    "link5": {
+    {
       "nom": "IUT Informatique de Nice Sophia Antipolis",
       "adresse": "http://iut.unice.fr/formations/departement/id/5_informatique-site-de-nice"
     },
-    "link4": {
+    {
       "nom": "eQCM Logiciel développé au sein de Xybion Corporation",
-      "adresse":"http://www.xybion.com/Quality-Management/quality-management.html"
+      "adresse": "http://www.xybion.com/Quality-Management/quality-management.html"
     }
-  },
+  ],
   "infoge": {
     "nom": "Molinengo",
     "prenom": "Mathieu",
