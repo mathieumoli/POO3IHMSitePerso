@@ -1,0 +1,191 @@
+{
+  "infocv": {
+    "nom": "Molinengo",
+    "prenom": "Mathieu",
+    "age": "23 ans",
+    "adresse": {
+      "chemin": "617 chemin Hugues Berenguier",
+      "ville": "06610 La Gaude"
+    },
+    "mobile": "06 69 54 66 34",
+    "mail": "mmolinengo2@gmail.com",
+    "nationalite": "Nationalité Française"
+  },
+  "links": {
+    "link1": {
+      "nom": "Memoshot (Projet CEGEP Lévis Lauzon)",
+      "adresse": "http://205.236.12.51/projet/h2014/equipe3/"
+    },
+      "link2": {
+      "nom": "Probtp ( Emploi Saisonnier en temps qu'informaticien )",
+      "adresse": "http://www.probtp.com/"
+      },
+    "link3": {
+      "nom": "Xybion Corporation (Stage à Quebec, QC, Canada)",
+      "adresse": "http://www.xybion.com/"
+    },
+    "link7": {
+      "nom": "Polytech'Nice (École d'ingenieur)",
+      "adresse": "http://www.polytechnice.fr/"
+    },
+    "link6": {
+      "nom": "CEGEP de Lévis-Lauzon, QC, Canada",
+      "adresse": "http://cll.qc.ca/"
+    },
+
+    "link5": {
+      "nom": "IUT Informatique de Nice Sophia Antipolis",
+      "adresse": "http://iut.unice.fr/formations/departement/id/5_informatique-site-de-nice"
+    },
+    "link4": {
+      "nom": "eQCM Logiciel développé au sein de Xybion Corporation",
+      "adresse":"http://www.xybion.com/Quality-Management/quality-management.html"
+    }
+  },
+  "infoge": {
+    "nom": "Molinengo",
+    "prenom": "Mathieu",
+    "age": "23 ans",
+    "adresse": {
+      "res": "Appartéa GolfSide",
+      "chemin": "400 avenue Roumanille",
+      "ville": "06140 Biot"
+    },
+    "tel": "08 36 65 65 65",
+    "fax": "08 36 65 65 65",
+    "nationalite": "Nationalité Française"
+  },
+  "cv": {
+    "photo": "../images/profil.jpg",
+    "presentation": "Informaticien en 3eme année à Polytech’Nice Sophia Antipolis diplômé de l’IUT de Nice Côte d’Azur",
+    "formation": {
+      "1-2014": {
+        "annee": "2014 - 2015",
+        "description": " Troisième année en sciences de l’informatique à Polytech’Nice Sophia Antipolis"
+      },
+      "2-2012": {
+        "annee": "2012 - 2014",
+        "description": " DUT informatique à l’IUT Nice Sophia Antipolis 3ème de promotion. Semestre 4 effectué au CEGEP de Lévis Lauzon, Québec, CANADA"
+      },
+      "3-2011": {
+        "annee": "2011 - 2012",
+        "description": " Première année d’école d’informatique SUPINFO"
+      },
+      "4-2010": {
+        "annee": "2010 - 2011",
+        "description": " École préparatoire au concours d’entrée d’école de kinésithérapie"
+      },
+      "5-2009": {
+        "annee": "2009 - 2010",
+        "description": " Université de Nice Sophia Antipolis en première année de médecine"
+      },
+      "6-2008": {
+        "annee": "2008 - 2009",
+        "description": " Bac scientifique au Lycée Henri Matisse de Vence mention Assez Bien"
+      }
+    },
+    "experiences": {
+      "1": {
+        "titre": "Xybion Corporation, Quebec City, CANADA",
+        "date": "Avril 2014 à Juin 2014",
+        "poste": "Analyste Programmeur",
+        "taches": {
+          "titre": "Tâches effectuées:",
+          "detail": " développement et maintenance de l’affichage de l’application internet, gestion du design, participation aux réunions AGILE"
+        },
+        "competence": {
+          "titre": "Compétences acquises:",
+          "detail": " approfondissement des connaissances sur les IHM et le responsive design, autonomie, organisation, sens des deadlines et du reporting Implication"
+        },
+        "langage": {
+          "titre": "Langages utilisés:",
+          "detail": " Java, CSS et HTML"
+        },
+        "technologie": {
+          "titre": "Technologies utilisées:",
+          "detail": " Eclipse, Photoshop, Google Chrome, Microsoft Word, Tomcat Server et Framework Vaadin"
+        }
+      },
+      "2": {
+        "titre": "PROBTP, Cagnes Sur Mer, FRANCE",
+        "date": "Juillet 2010 à Août 2010",
+        "poste": "Technicien",
+        "taches": {
+          "titre": "Tâches effectuées:",
+          "detail": " mise à jour d’une base de données Lotus, gestion du Mise en place de matériel défectueux, installation et cartographie d’un parc informatique partenariats"
+        },
+        "competence": {
+          "titre": "Compétences acquises:",
+          "detail": " installation et configuration du matériel, capacité organisationnelle (gestion d’infrastructures)"
+        },
+        "langage": {
+          "titre": "Langages utilisés:",
+          "detail": " "
+        },
+        "technologie": {
+          "titre": "Technologies utilisées:",
+          "detail": " Lotus "
+        }
+      }
+    },
+    "competences": {
+      "Langage": {
+        "titre": "Langage de programmation",
+        "detail": "C, Java, HTML, PHP, Javascript, CSS, SQL, Android, UML"
+      },
+      "Environnement": {
+        "titre": "Environnement système",
+        "detail": " Linux (Ubuntu), Windows (XP, Seven), Mac OSX (Snow Leopard à Yosemite)"
+      },
+      "BD": {
+        "titre": "Base de données",
+        "detail": "TransactSQL, PL SQL, MySQL, Access"
+      },
+      "Methodes": {
+        "titre": "Méthodes",
+        "detail": "Cycle en V, AGILE, MERISE"
+      },
+      "IDE": {
+        "titre": "IDE",
+        "detail": "IDE: Eclipse, Visual Studio, SQL Server 2008, PHPStorm,WebStorm"
+      },
+      "Framework": {
+        "titre": " Framework et Package",
+        "detail": "SWING, AWT, J2EE, Vaadin"
+      }
+    },
+    "implication": {
+      "BDE": {
+        "titre": "Président du bureau des étudiants de l’IUT informatique",
+        "mission1": "Création et gestion de l’association,",
+        "mission2": "Organisation d’évènements,",
+        "mission3": "Mise en place de partenariats"
+      },
+      "Poly": {
+        "titre": " Chef de Projet d’une collecte de jouets pour des enfants défavorisés",
+        "mission1": "Collecte de jouets,",
+        "mission2": "Gestion de projets,",
+        "mission3": "Communication autour du projet"
+      }
+    },
+    "interet": {
+      "culturel": {
+        "categorie": "Culturel",
+        "interet": {
+          "culturel1": "Cinéma",
+          "culturel2": "Photographie",
+          "culturel3": "Musique (Guitare)"
+        }
+      },
+      "sport": {
+        "categorie": "Sport",
+        "interet": {
+          "sport1": "Ski",
+          "sport2": "Snowboard",
+          "sport3": "Basket Ball",
+          "sport4": "Squash"
+        }
+      }
+    }
+  }
+}

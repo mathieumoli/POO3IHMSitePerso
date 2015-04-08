@@ -1,0 +1,95 @@
+<div ng-controller="CVCtrl">
+  <div class="cadreCV">
+    <table>
+      <tr>
+        <td class="colonneGauche">
+          <!--sidebar-->
+          <div class="image">
+            <img src={{data.cv.photo}} class="img-thumbnail"> <!--sidebar--></div>
+
+          <br>
+          <br>
+
+          <div class="nomPrenom">
+            <h3>{{data.infocv.nom}} {{data.infocv.prenom}}</h3>
+          </div>
+          <br>
+          {{data.infocv.age}}<br>
+          {{data.infocv.adresse.chemin}}<br>
+          {{data.infocv.adresse.ville}}<br>
+          {{data.infocv.mobile}}<br>
+          {{data.infocv.mail}}<br>
+          {{data.infocv.nationalite}}<br>
+
+
+
+          <div class="impli">
+          <h3><u>Implication</u></h3></div><br>
+          <br>
+          <div ng-repeat="imp in data.cv.implication">
+            <b> {{imp.titre}}</b><br>
+            <ul>
+              <li> {{imp.mission1}}</li>
+              <li> {{imp.mission2}}</li>
+              <li> {{imp.mission3}}</li>
+            </ul>
+            <br>
+          </div>
+
+          <div class="inte">
+          <h3><u>Intérêts</u></h3></div><br>
+
+          <div ng-repeat="int in data.cv.interet">
+            <b>{{int.categorie}}</b>
+            <ul ng-repeat="inte in int.interet">
+              <li>{{inte}}</li>
+            </ul>
+          </div>
+          <br>
+          <br>
+        </td>
+
+
+        <td class="colonneDroite">
+          <!--content-->
+
+          <h2 align="center">{{data.cv.presentation}}</h2>
+
+          <br><br>
+
+          <div class="compe">
+            <h3 align="center"><u>Compétences Informatiques</u></h3>
+          </div>
+          <table class="table table-striped">
+            <tbody ng-repeat="comp in data.cv.competences">
+            <tr>
+              <td>{{comp.titre}}</td>
+              <td>{{comp.detail}}</td>
+            </tr>
+            </tbody>
+          </table>
+          <br>
+          <h3 align="center"><u>Expériences Professionnelles</u></h3>
+          <div ng-repeat="expe in data.cv.experiences">
+            <h4> {{expe.titre}}</h4>
+            <h5><b><u>{{expe.date}}</u></b></h5>
+            <I>{{expe.poste}}</I><br><br>
+            <b>{{expe.taches.titre}}</b> {{expe.taches.detail}}<br>
+            <b>{{expe.competence.titre}}</b>{{expe.competence.detail}}<br>
+            <b>{{expe.langage.titre}}</b>{{expe.langage.detail}}<br>
+            <b>{{expe.technologie.titre}}</b>{{expe.technologie.detail}}<br><br>
+          </div>
+          <br>
+          <h3 align="center"><u>Formation</u></h3>
+          <table class="table table-striped">
+            <tbody ng-repeat="forma in data.cv.formation">
+            <tr>
+              <td width="100px">{{forma.annee}}</td>
+              <td>{{forma.description}}</td>
+            </tr>
+            </tbody>
+          </table>
+        </td>
+    </table>
+  </div>
+</div>

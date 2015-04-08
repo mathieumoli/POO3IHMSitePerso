@@ -1,0 +1,204 @@
+/* Space out content a bit */
+body {
+  font-family: 'Abel', sans-serif;
+  padding-top: 20px;
+  min-width: 100%;
+  background-image:url(./../images/wood_pattern.png);
+}
+.contain{
+  padding-left:100px;
+  padding-right: 100px;
+
+}
+
+.colonneGauche{
+  padding-top: 70px;
+  padding-left: 6px;
+  padding-right: 6px;
+  vertical-align: top;
+  background-color: #105cb6;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+}
+.colonneDroite{
+  padding-top: 70px;
+  padding-left: 6px;
+  padding-right: 6px;
+
+
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.head{
+  height:120px;
+  text-align: center;
+
+}
+.logo{
+  padding-left: 20px;
+  width: 100%;
+  bottom: 0;
+}
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+  border-radius: 10px;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+ {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+
+  .carousel-page
+  {
+    width:100%;
+    background-color:black;
+    color:white;
+  }
+  /* Wrapper for page content to push down footer */
+  #wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /* Negative indent footer by its height */
+    margin: 0 auto -60px;
+    /* Pad bottom by footer height */
+    padding: 0 0 60px;
+  }
+
+  /* Set the fixed height of the footer here */
+  .footer {
+    margin-top:50px;
+    padding-top:20px;
+    border-radius: 10px;
+    vertical-align: middle;
+    color:white;
+    height: 70px;
+    background-color: #101010;
+    bottom:0px;
+    margin-bottom: 10px;
+  }
+
+
+  #footer a {
+    position:fixed;
+    background: black;
+    color:#efefef;
+  }
+
+  .scroll-top {
+    position:fixed;
+    bottom:0;
+    right:6%;
+    z-index:100;
+    background: #A91101;
+    font-size:24px;
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
+  }
+  .scroll-top a:link,.scroll-top a:visited {
+    color:#222;
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
+
+  }
+  .cadreContact {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #FEFEFE;
+    color: #000;
+    border-radius: 10px;
+    opacity: 0.85;
+  }
+
+  .cadreCV {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: #FEFEFE;
+    color: #000;
+    border-radius: 10px;
+    opacity: 0.85;
+  }
+
+  .image{
+    text-align: center;
+  }
+  .compe{
+
+    vertical-align:text-top;
+    padding-top: 13px;
+
+  }
+   .nomPrenom{
+vertical-align: bottom;
+   }
+
+   .impli{
+     padding-top: 60px;
+
+   }
+
+   .inte{
+     padding-top: 60px;
+
+   }
+
+}
